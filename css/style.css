@@ -10,3 +10,40 @@ section {
     border: 1px solid #ccc;
     padding: 20px;
 }
+
+/* ------------------------- */
+
+.comb-box {
+    background-color: yellow;
+    padding: 5px;
+}
+
+/* descendant selector */
+.comb-box ul li {
+    display: inline-block;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.comb-list {
+    display: inline-block;
+}
+
+/* adjacent sibling selector */
+.comb-list + div {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+/* child selector */
+.comb-dl > dt {
+    font-weight: bold;
+}
+
+/* general sibling selector */
+dt ~ dd {
+    background-color: pink;
+    padding: 5px;
+    margin: 0;
+}

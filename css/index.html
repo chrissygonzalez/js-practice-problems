@@ -14,6 +14,27 @@
 
         <section>
             <h3>Combinators</h3>
+            <dl class="comb-dl">
+                <dt>.box ul li { }</dt>
+                <dd>Descendant selector: select all elements that are descendants of a specified parent.</dd>
+
+                <dt>.items > li { }</dt>
+                <dd>Child selector: select all elements that are immediate children of a specified parent.</dd>
+
+                <dt>.box h2 + p { }</dt>
+                <dd>Adjacent sibling selector: select elements that are the adjacent siblings of an element</dd>
+
+                <dt>h2 ~ p { }</dt>
+                <dd>General sibling selector: Select elements that are the siblings of an element</dd>
+            </dl>
+            <div class="comb-box">
+                <ul class="comb-list">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
+                <div>list sibling div</div>
+            </div>
         </section>
     </body>
 </html>
