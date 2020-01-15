@@ -1,0 +1,12 @@
+#basic-id {
+    font-style: italic;
+}
+
+.basic-red {
+    color: red;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
