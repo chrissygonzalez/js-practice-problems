@@ -7,4 +7,4 @@
 * [Notes](/css/index.html)
 
 ### YDKJS
-* [Phone store exercises](/ydkjs/phonestore.js)
+* [Up and Going chapter 1: phone store exercises](/ydkjs/phonestore.js)
